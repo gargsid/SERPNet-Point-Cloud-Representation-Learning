@@ -2,8 +2,8 @@
 
 We  present SeRP, a framework   for   Self-SupervisedLearning  of  3D  point  clouds.   SeRP  consists  of  encoder-decoder  architecture  that  takes  perturbed  or  corruptedpoint clouds as its inputs and aims to reconstruct the original  point  cloud  without  corruption. The  proposed  framework also  addresses  some  of  the  limitations  of  Transformers based [Masked Autoencoders](https://github.com/Pang-Yatian/Point-MAE) which are prone to leak-age of location information and uneven information density. Furthermore,  we  also  proposed  VASP:Vector-Quantized Autoencoder  for Self-supervised  Representation  Learning for Point Clouds that employs Vector-Quantization for discrete representation learning for Transformer based autoencoders. [arXiv](https://arxiv.org/pdf/2209.06067.pdf).
 
-<img src="https://github.com/gargsid/SERPNet-Transformer-Point-Cloud/blob/master/assets/vq-vae-pipeline.png" width="900" height="200" />
-<img src="https://github.com/gargsid/SERPNet-Transformer-Point-Cloud/blob/master/assets/reconstructions.png" width="750" height="300" />
+<img src="https://github.com/gargsid/SERPNet-Point-Cloud-Representation-Learning/blob/main/assets/vq-vae-pipeline.png" width="900" height="200" />
+<img src="https://github.com/gargsid/SERPNet-Point-Cloud-Representation-Learning/blob/main/assets/reconstructions.png" width="750" height="300" />
 
 ## Setup
 ```
